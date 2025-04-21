@@ -13,14 +13,8 @@
     "require": {
         "php": ">=5.3.0",
         "ext-curl": "*",
-        "paypal/sdk-core-php":"dev-master"
+        "smashgg/paypal-sdk-core-php":"*"
     },
-	"repositories": [
-		{
-			"type": "vcs",
-			"url": "https://github.com/smashgg/paypal-sdk-core-php"
-		}
-	],
     "autoload": {
         "psr-0": {
             "PayPal\\Service": "lib/",
