@@ -14,7 +14,7 @@
         "php": ">=5.3.0",
         "ext-curl": "*",
         "smashgg/paypal-sdk-core-php": "*"
-    }
+    },
     "autoload": {
         "psr-0": {
             "PayPal\\Service": "lib/",
